@@ -1,0 +1,22 @@
+---
+title: "Codebook"
+output: word_document
+date: "2024-07-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+library(dataMaid)
+library(here)
+```
+
+```{r}
+here::i_am("Codebook.Rmd")
+```
+```{r}
+honey_prod <- read_csv("US_honey_production_dataset.csv", show_col_types = FALSE)
+makeCodebook(honey_prod, reportTitle = NULL, file = NULL, replace= TRUE)
+```
