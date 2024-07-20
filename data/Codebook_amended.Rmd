@@ -1,0 +1,24 @@
+---
+title: "Codebook"
+output: pdf_document
+date: "2024-07-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+library(dataMaid)
+library(readr)
+library(here)
+```
+
+```{r}
+here::i_am("Codebook_amended.Rmd")
+```
+
+```{r}
+honey_cleaned <- read_csv("cleaned_honey_data.csv", show_col_types = FALSE)
+makeCodebook(honey_cleaned, reportTitle = NULL, file = NULL, replace= TRUE)
+```
