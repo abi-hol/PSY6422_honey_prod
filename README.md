@@ -4,12 +4,12 @@ This is my final project for PSY6422: Visualisation of Honey Production in the U
 
 # Repository Structure 
 
-/data: folder containing processed csv file and corresponding codebook
-/figs: folder containing png files of visualisations
-/raw: folder containing raw csv file and corresponding codebook
-.gitignore: specifying which files to be ignored by git
-LICENSE: MIT publishing license from github
-README.md: this file
-index.Rmd: markdown file used to run the project
-index.html: knitted version of the markdown file
-markdown_210195998.pdf: pdf file rendered in markdown
+/data: folder containing processed csv file and corresponding codebook  
+/figs: folder containing png files of visualisations  
+/raw: folder containing raw csv file and corresponding codebook  
+.gitignore: specifying which files to be ignored by git  
+LICENSE: MIT publishing license from github  
+README.md: this file  
+index.Rmd: markdown file used to run the project  
+index.html: knitted version of the markdown file  
+markdown_210195998.pdf: pdf file rendered in markdown  
