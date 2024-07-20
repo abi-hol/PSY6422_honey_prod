@@ -1,0 +1,5 @@
+#ignore all .RData files
+*.RData
+
+#igmore all .RHistory files
+*.Rhistory
